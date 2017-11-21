@@ -1,24 +1,19 @@
-Line Alphat JS
+Cara Install Bot AlphatJS :
 
-# require node >= v8.x.x
-check your nodejs version
-`node -v`
-[upgrade nodejs](https://google.com/)
+pkg install nodejs -y
+pkg install git -y
+git clone https://github.com/Nadyatjia/AlphatJS
+pkg install nano
+cd AlphatJS
+npm install
+npm start
+Cara Menjalankan Bot Kembali :
+
+cd AlphatJS
+npm start
+Command "Help" :
 
 
-How to run ?
-------
-- `git clone https://github.com/alfathdirk/LineAlphatJS.git`
-- `cd LineAlphatJS && npm install`
-- `npm start`
+Thx To :
 
-
-Still work :construction_worker:
-----
-**TODO** features
-- Implement All 
-- Improve logic
-
-Author
-------
-[@alfathdirk](https://instagram.com/alfathdirk)
+Alfatdirk And LINE-TCR TEAM
