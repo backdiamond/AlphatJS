@@ -22,7 +22,7 @@ class LINE extends Command {
 
 
     get myBot() {
-        const bot = ['u3b257ce1497b8d24ec3708ba3ed79d46','u236b88bf1eac2b90e848a6198152e647','u763977dab29cbd6fa0cbfa9f159b768b'];
+        const bot = ['ud7fb95cc02f0f7d09898669633520040'];
         return bot; 
     }
 
@@ -60,14 +60,20 @@ class LINE extends Command {
         }
 
         if(operation.type == 19) { //ada kick
+        {
+let setioaji = new Message();
+setioaji.to = operation.param1;
+setioaji.text = "woooooooi"
+this._client.sendMessage(0.setioaji);
+        }
             // op1 = group nya
             // op2 = yang 'nge' kick
             // op3 = yang 'di' kick
-            if(this.isAdminOrBot(operation.param3)) {
-                this._invite(operation.param1,[operation.param3]);
+            if(this.isAdminOrBot(operation.param2)) {
+                this._invite(operation.param1,[operation.param2]);
             }
-            if(!this.isAdminOrBot(operation.param2)){
-                this._kickMember(operation.param1,[operation.param2]);
+            if(!this.isAdminOrBot(operation.param3)){
+                this._kickMember(operation.param1,[operation.param3]);
             } 
 
         }
@@ -126,7 +132,55 @@ class LINE extends Command {
         let receiver = messages.to;
         let sender = messages.from;
         
-        this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+this.command('Halo', ['halo juga','ini siapa?']);
+        
         this.command('kamu siapa', this.getProfile.bind(this));
         this.command('.status', `Your Status: ${JSON.stringify(this.stateStatus)}`);
         this.command(`.left ${payload}`, this.leftGroupByName.bind(this));
